@@ -1,0 +1,19 @@
+@media print, (max-width: 1187px) {
+    .first-section_image {
+        width: 541px;
+        height: 467px;
+        margin-top: -40px;
+    }
+    .first-section_info {
+        width: calc(100% - 571px);
+    }
+    .first-section_title {
+        font-size: 42px;
+    }
+    .first-section_text {
+        font-size: 22px;
+    }  
+
+
+
+}

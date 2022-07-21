@@ -1,0 +1,35 @@
+@media print, (max-width: 1023px) {
+    .first-section_block {
+        flex-direction: column-reverse;
+    }
+    .first-section_image {
+        margin: 0 auto 28px;
+    }
+    .first-section_block {
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-section_info {
+        text-align: center;
+        width: 100%;
+    }
+    .first-section_title {
+        font-size: 38px;  
+        margin-bottom: 31px;
+    }
+    .first-section a {
+        margin: 0 auto;
+    }
+    .block {
+        padding-bottom: 60px;
+    }
+  
+  
+
+
+
+
+
+
+}
