@@ -24,6 +24,47 @@
     .block {
         padding-bottom: 60px;
     }
+
+    label.check {
+        font-size: 22px;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .error {
+        font-size: 22px;
+    }
+    .question ul {
+        margin-top: 50px;
+    }
+
+    .promocode_text {
+        font-size: 25px;
+    }
+    .promocode_block {
+        font-size: 34px;
+        height: 110px;
+    }
+    .contacts_items {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .contacts_items > * {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .contacts_socials {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .contacts_socials > * {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .promocode .search input {
+        width: 390px;
+    }
   
   
 

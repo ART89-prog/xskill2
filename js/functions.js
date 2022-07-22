@@ -23,20 +23,6 @@ $(() => {
 	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
 
 
-	// Fancybox
-	Fancybox.defaults.autoFocus = false
-	Fancybox.defaults.dragToClose = false
-	Fancybox.defaults.l10n = {
-		CLOSE: "Закрыть",
-		NEXT: "Следующий",
-		PREV: "Предыдущий",
-		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
-	}
-
-	Fancybox.defaults.template = {
-		closeButton: '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.99956 18L17.9995 2.00004" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 2L18 18" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
-	}
-
 	// Всплывающие окна
 	$('body').on('click', '.modal_btn', function (e) {
 		e.preventDefault()
@@ -49,15 +35,6 @@ $(() => {
 		}])
 	})
 
-	// Увеличение картинки
-	Fancybox.bind('.fancy_img', {
-		Image: {
-			zoom: false,
-		},
-		Thumbs: {
-			autoStart: false,
-		}
-	})
 
 
 	// Моб. версия

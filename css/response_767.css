@@ -5,26 +5,124 @@
         margin-top: 0px;
     }
     header {
-        padding-top: 35px;
-        padding-bottom: 35px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .header_logo img {
-        width: 143px;
-        padding-right: 22px;
+        width: 173px;
+        padding-right: 25px;
     }
     .header_logo span {
-        font-size: 14px;
-        padding-left: 21px;
+        font-size: 16px;
+        padding-left: 25px;
     }
     .first-section_text {
         font-size: 19px;
         margin-bottom: 40px;
     }
-    .first-section a {
+    .link a {
         font-size: 17px;
         width: 170px;
         height: 62px;
     }
+
+    .question_number {
+        width: 59px;
+        height: 59px;
+        font-size: 38px;
+        line-height: 59px;
+
+    }
+    .title {
+        font-size: 32px;
+        line-height: 37px;
+    }
+    label.check {
+        font-size: 16px;
+    }
+    label.check:before {
+        width: 30px;
+        height: 30px;
+        top: 0;
+        border-radius: 8px;
+    }
+    label.check:after {
+        top: 9px;
+        left: 7px;
+        width: 17px;
+        height: 10px;        
+    }
+    label.check {
+        padding-left: 40px;
+    }
+    .question ul li {
+        margin-right: 30px;
+        margin-bottom: 21px;
+    }
+    .question_bottom {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    .error {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .error img {
+        margin-right: 13px;
+        width: 27px;
+        height: 27px;
+    }
+
+    .title-icon img {
+        width: 59px;
+        height: 59px;
+    }
+    .promocode_title {
+        align-items: center;
+    }
+    .promocode_text {
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+    .promocode_block {
+        font-size: 30px;
+        height: 93px;
+    }
+    .promocode_block {
+        padding: 23px 39px;
+        width: 100%;
+    }
+    .contacts_item-title {
+        font-size: 18px;
+    }
+    .contacts_item-text {
+        font-size: 18px;
+    }
+    .socials-icon {
+        width: 37px;
+        height: 37px;
+        margin-right: 18px;
+    }
+    .socials-icon img {
+        width: 100%;
+        height: 100%;
+    }
+    .socials-link {
+        font-size: 18px;
+    }
+    .contacts_items {
+        margin-bottom: 33px;
+    }
+
+    .promocode .search {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
  
 
 
